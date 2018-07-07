@@ -1,8 +1,10 @@
-#include<stdio.h>
-void main()
-	{
-		printf("Hello World"); //Printing Hello World
-		return;
-	}
+#include <stdio.h>
+
+int
+main()
+{
+	printf("Hello World"); //Printing Hello World
+	return;
+}
 
 
