@@ -3,8 +3,10 @@
 int
 main()
 {
-	printf("Hello World"); //Printing Hello World
-	return;
+	printf("Hello World");
+	return 0;
+
 }
+
 
 
