@@ -3,17 +3,15 @@
 int
 main ()
 {
-	int nc = 0, nb = 0, nt = 0, nl = 0;
+	int nb = 0, nt = 0, nl = 0;
 	int c = 0;
 
-	while ((c = getchar()) != EOF){
-		if (c = '\n'){
+	while ((c = getchar()) != EOF) {
+		if (c == '\n') {
 			nl++;
-		}
-		else if (c = '\t'){
+		} else if (c == '\t') {
 			nt++;
-		}
-		else if (c = ' '){
+		} else if (c == ' ') {
 			nb++;
 		}
 	}
