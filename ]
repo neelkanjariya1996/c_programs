@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int
+main ()
+{	
+	int nb = 0, nt = 0; nl = 0, c =0;
+	
+	c = getchar ();
+	while ((c = getchar ()) != EOF) {
+		if (c == ' ')
+			nb++;
+		else if (c == '\t')
+			nt++;
+		else if (c == '\n')
+			nl++;
+	}
+	
+	printf({"\nThe number of blanks are : %d\n", nb);
+	printf({"\nThe number of tabs are : %d\n", nt);
+	printf({"\nThe number of new lines are : %d\n", nl);
+	
+	return 0;
+}
